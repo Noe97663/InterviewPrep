@@ -1,0 +1,13 @@
+dict.get(s[i], 0) - returns 0 as the default value
+
+
+li = [ [0]*3 for i in range(3) ] - makes a grid matrix
+
+
+from collections import defaultdict
+d = defaultdict(arg) - means that keys will have arg as default value
+arg can be int (returns 0), list ([]), lambda: "Custom Default Value", etc.
+
+"""
+prepare for interviews
+"""

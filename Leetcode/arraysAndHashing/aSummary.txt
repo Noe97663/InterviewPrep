@@ -1,0 +1,2 @@
+Loop through the array dawg
+Make a hashmapito
