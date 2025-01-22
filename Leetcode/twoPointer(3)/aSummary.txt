@@ -1,0 +1,3 @@
+Check if array problem could use 2 pointers
+
+Sorting can be key to being able to use 2 pointers

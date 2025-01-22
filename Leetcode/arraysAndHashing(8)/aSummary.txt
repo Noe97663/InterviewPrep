@@ -1,0 +1,9 @@
+Brute force = loops
+
+Optimizations
+- Avoid unnecessary loops
+- Sort the array first 
+- Hashmap/HashSet usage
+
+You might be trading time for space.
+Other data structures like Heaps (Binary Trees) could be useful as well.

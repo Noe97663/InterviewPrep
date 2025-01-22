@@ -1,5 +1,11 @@
+Check if array problems would benefit from:
+    - Sorting
+    - Two pointers
+    - Hashmaps/HashSets 
+
 dict.get(s[i], 0) - returns 0 as the default value
 
+for index,element in enumerate(array):
 
 li = [ [0]*3 for i in range(3) ] - makes a grid matrix
 
