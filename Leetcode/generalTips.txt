@@ -8,6 +8,8 @@ from collections import defaultdict
 d = defaultdict(arg) - means that keys will have arg as default value
 arg can be int (returns 0), list ([]), lambda: "Custom Default Value", etc.
 
+A heap - complete binary tree where parent <= child nodes
+
 """
 prepare for interviews
 """

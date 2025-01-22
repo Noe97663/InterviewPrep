@@ -8,7 +8,7 @@
 from collections import defaultdict
 
 
-def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
+def groupAnagrams(strs: list[str]) -> list[list[str]]:
     groups = defaultdict(list)
     for s in strs:
         key = [0] * 26
