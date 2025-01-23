@@ -1,7 +1,7 @@
 # Find the longest substring without duplicates
 
 ## Brute force - nested loop - O(n^2), O(1)
-## Sliding window - O(n), O(1)
+## Sliding window - classic - O(n), O(1)
 
 
 def lengthOfLongestSubstring(s: str) -> int:
