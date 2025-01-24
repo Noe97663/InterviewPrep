@@ -1,0 +1,8 @@
+Linked List questions are good candidates for recursion
+Write base cases first
+
+fast and slow pointers - useful for middle
+
+dummy nodes are useful
+
+While node: is a common pattern
