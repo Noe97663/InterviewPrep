@@ -1,0 +1,10 @@
+Linked List questions are good candidates for recursion
+Write base cases first
+Using a list to store data shared between calls is useful
+Counting can happen before OR AFTER a recursive call
+
+2 pointers - fast and slow pointers - useful for middle
+
+dummy nodes are useful
+
+While node: is a common pattern
