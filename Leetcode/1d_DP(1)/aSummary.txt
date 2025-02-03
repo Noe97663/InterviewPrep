@@ -1,2 +1,5 @@
 memoization - caching of recursive call values and checking the
 cache before you recurse again can help
+
+do basic DP, then look for optimization 
+(like memoization or just using vars instead of table)

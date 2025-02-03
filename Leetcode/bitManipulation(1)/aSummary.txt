@@ -1,0 +1,1 @@
+do bit manipulation questions in java or C since it's not straightforward in Python
