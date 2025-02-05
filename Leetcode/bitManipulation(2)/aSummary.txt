@@ -1,0 +1,15 @@
+do bit manipulation questions in java or C since it's not 
+as straightforward in Python
+
+XOR with the same number gives zero
+
+bit manipulation operators in Java,Python:
+bitshifts  <<, >> 
+(zeroes fill in Python)
+(<< fills zeroes in Java)
+(>> fills in left digit in Java)
+AND  &
+OR  |
+Complement  ~
+XOR  ^
+
