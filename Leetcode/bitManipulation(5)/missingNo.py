@@ -15,7 +15,7 @@
 
 
 # XOR solution
-def missingNumber(self, nums: [int]) -> int:
+def missingNumber(nums: [int]) -> int:
     n = len(nums)
     xor = n
     for i in range(n):
