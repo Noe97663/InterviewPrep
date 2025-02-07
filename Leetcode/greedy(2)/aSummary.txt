@@ -2,3 +2,5 @@ Look for the best choice locally
 
 Look at the problem from the front AND
 Look at the problem from the back
+
+Useful for arrays of data
