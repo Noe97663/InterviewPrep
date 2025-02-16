@@ -1,0 +1,4 @@
+the grid is important, which corner has the answer though?
+
+the number of DFS calls (x calls) indicates the base of the exponent
+- O(x^n)

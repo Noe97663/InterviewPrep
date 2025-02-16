@@ -1,1 +1,0 @@
-Array must be sorted to perform binary search

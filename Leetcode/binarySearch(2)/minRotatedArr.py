@@ -17,7 +17,7 @@ def findMin(nums: list[int]) -> int:
         m = (l + r) // 2
         res = min(res, nums[m])
         # num on left is smaller, correct, look in right
-        if nums[m] >= nums[l]:
+        if nums[l] <= nums[m]:
             l = m + 1
         else:
             r = m - 1

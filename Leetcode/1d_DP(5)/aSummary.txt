@@ -1,8 +1,13 @@
+TOP DOWN
 memoization - caching of recursive call values and checking the
 cache before you recurse again can help
 
 do basic DP, then look for optimization 
 (like memoization or just using vars instead of table)
+
+BOTTOM UP
+Consider the smallest possible problem, base cases
+Make the problem easier by splitting, truncating - solve that
 
 
 Either you do or you don't - O(2^n) solution
@@ -10,5 +15,3 @@ Easy to solve with recursion, can be simplified
 with DP
 
 DP can be space optimized if all the numbers in the array don't matter
-
-Make the problem easier by splitting, truncating - solve that

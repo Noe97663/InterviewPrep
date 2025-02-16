@@ -1,3 +1,6 @@
+# Array must be sorted to perform binary search
+
+
 def binary_search(arr, target):
     # return: Index if found, else -1
     left, right = 0, len(arr) - 1
