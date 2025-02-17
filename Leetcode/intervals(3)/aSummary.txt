@@ -1,0 +1,7 @@
+Greedy is a common option for interval questions
+
+Sorting in array questions - :D
+
+Clarify what is required in the final answer.
+
+Edge cases, check odd/even, empty, very large, etc.

@@ -2,6 +2,17 @@ Check if array problems would benefit from:
     - Sorting
     - Two pointers
     - Hashmaps/HashSets 
+    - Dynamic Programming
+
+Clarify what is required in the final answer.
+
+Edge cases, check odd/even, empty, very large, etc.
+Try the problem (reversed):
+Left to Right, Top to bottom, Inside out, etc.
+
+You can probably trade time complexity for space complexity if you are at/above O(n).
+
+MENTION that you do NOT count output space in space complexity.
 
 dict.get(s[i], 0) - returns 0 as the default value
 
