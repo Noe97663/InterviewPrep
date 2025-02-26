@@ -1,4 +1,4 @@
-Greedy is a common option for interval questions
+Greedy is a common option for time interval questions
 
 Sorting in array questions - :D
 

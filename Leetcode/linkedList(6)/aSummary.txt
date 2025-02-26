@@ -1,4 +1,4 @@
-Linked List questions are good candidates for recursion
+Linked List questions are good for recursion
 Write base cases first
 Using a list to store data shared between calls is useful
 Counting can happen before OR AFTER a recursive call
@@ -7,4 +7,4 @@ Counting can happen before OR AFTER a recursive call
 
 dummy nodes are useful
 
-While node: is a common pattern
+While curr_node: is a common pattern

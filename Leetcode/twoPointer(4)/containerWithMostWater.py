@@ -2,7 +2,7 @@
 
 ## Brute force - nested loop - O(n^2), O(1)
 ## Optimal - Two pointer solution - O(n), O(1)
-##           You are always limited by the shortest bar
+##           You are always limited by the shortest bar (TRUST)
 
 
 def maxArea(heights: list[int]) -> int:

@@ -1,4 +1,4 @@
-# Find the minimum num of days to schedule all meetings
+# Find the minimum num of rooms to schedule all meetings
 # given the start and end times
 
 
@@ -19,13 +19,13 @@ def minMeetingRooms(intervals: [Interval]) -> int:
     end = sorted([i.end for i in intervals])
 
     res = count = 0
-    s = e = 0
-    while s < len(intervals):
-        if start[s] < end[e]:
-            s += 1
+    s_i = e_i = 0
+    while s_i < len(intervals):
+        if start[s_i] < end[e_i]:
+            s_i += 1
             count += 1
         else:
-            e += 1
+            e_i += 1
             count -= 1
         res = max(res, count)
     return res

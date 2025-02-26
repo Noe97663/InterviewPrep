@@ -7,3 +7,5 @@ Optimizations
 
 You might be trading time for space.
 Other data structures like Heaps (Binary Trees) could be useful as well.
+
+A heap is a complete binary tree where the parent node is larger/smaller than children

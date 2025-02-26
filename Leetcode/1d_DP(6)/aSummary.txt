@@ -2,12 +2,13 @@ TOP DOWN
 memoization - caching of recursive call values and checking the
 cache before you recurse again can help
 
-do basic DP, then look for optimization 
+do basic recursion, then look for optimization 
 (like memoization or just using vars instead of table)
 
 BOTTOM UP
 Consider the smallest possible problem, base cases
 Make the problem easier by splitting, truncating - solve that
+The sub-problems help to determine the final solution
 
 
 Either you do or you don't - O(2^n) solution

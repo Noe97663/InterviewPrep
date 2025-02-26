@@ -11,6 +11,7 @@ def merge(intervals: List[List[int]]) -> List[List[int]]:
     for start, end in intervals:
         lastEnd = output[-1][1]
 
+        # combine intervals
         if start <= lastEnd:
             output[-1][1] = max(lastEnd, end)
         else:

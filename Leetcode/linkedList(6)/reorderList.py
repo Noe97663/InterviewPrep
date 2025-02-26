@@ -38,7 +38,6 @@ def reorderList(head: [ListNode]) -> None:
     # combining LLs
     head2 = prev
     head1 = head
-    print("got here")
 
     curr1 = head1
     curr2 = head2

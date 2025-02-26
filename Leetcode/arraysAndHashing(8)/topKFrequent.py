@@ -12,6 +12,8 @@ def topKFrequent(nums: list[int], k: int) -> list[int]:
         count[num] = 1 + count.get(num, 0)
 
     # the index in freq corresponds to how many times an element appeared
+    # [[],[7],[2,3],[5]] - nothing appeared 0 times, 7 appeared 1 time
+    # [] appeared index times
     freq = [[] for i in range(len(nums) + 1)]
     for num, cnt in count.items():
         freq[cnt].append(num)

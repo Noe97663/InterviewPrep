@@ -11,7 +11,7 @@
 
 
 # greedy
-def canJump(nums: List[int]) -> bool:
+def canJump(nums: [int]) -> bool:
     goal = len(nums) - 1
 
     for i in range(len(nums) - 2, -1, -1):
@@ -21,7 +21,7 @@ def canJump(nums: List[int]) -> bool:
 
 
 # bottom up DP
-def canJump(nums: List[int]) -> bool:
+def canJump(nums: [int]) -> bool:
     n = len(nums)
     dp = [False] * n
     dp[-1] = True

@@ -13,7 +13,7 @@ class ListNode:
 ## that reduces by 1 every step, the max length the gap can be is n
 
 
-def hasCycle(self, head: [ListNode]) -> bool:
+def hasCycle(head: [ListNode]) -> bool:
     fast = slow = head
     while fast and fast.next:
         slow = slow.next

@@ -4,7 +4,7 @@
 ## Brute force - use an array, just append words, check all of them
 ##             - O(m*n), O(m*n)
 ## HashMap - use a hashmap + place to store wildcard words
-## Trie - bruh - O(len of word), O(Trie nodes)
+## Trie - bruh - O(len of word), O(len of word * avg len)
 
 
 class TrieNode:

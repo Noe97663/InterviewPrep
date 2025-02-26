@@ -9,12 +9,12 @@ class ListNode:
 
 ## Brute force - Loop twice - O(n), O(1)
 ## Recursively - O(n), O(n)
-## 2 pointers- with a constant gap of N, when right node reaches end,
+## 2 pointers - with a constant gap of N, when right node reaches end,
 ##             delete the node at the left pointer position,
 ##             dummy node for off by one error for left pointer.
 
 
-def removeNthFromEnd(self, head: [ListNode], n: int) -> [ListNode]:
+def removeNthFromEnd(head: [ListNode], n: int) -> [ListNode]:
     dummy = ListNode(0, head)
     left = dummy
     right = head

@@ -14,7 +14,7 @@ def characterReplacement(s: str, k: int) -> int:
     # checking every possible endpoint
     while r < len(s):
         counts[s[r]] = 1 + counts.get(s[r], 0)
-        # cannot cover non-MCC with k replacements
+        # while cannot cover non-MCC with k replacements
         while (r - l + 1) - max(counts.values()) > k:
             # make window smaller,
             # cause if [..|..|..] does not work,

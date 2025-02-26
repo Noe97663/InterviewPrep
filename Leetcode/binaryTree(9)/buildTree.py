@@ -11,7 +11,7 @@ class TreeNode:
 
 ## DFS - use pre-order[0] to find root, find the root in the in-order,
 ##       now you know there are n in the left sub tree (left of root in
-##       the order tree), take the first n from the pre-order and recurse
+##       the in order tree), take the first n from the pre-order and recurse
 ##       on the left, and the right - O(n^2), O(n)
 ## improvement - use a hashmap instead of .index() to make it O(n) - O(n), O(n)
 

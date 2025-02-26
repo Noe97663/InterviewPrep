@@ -5,7 +5,7 @@ XOR with the same number gives zero
 
 n >> 1 divides a number by 2 in python
 
-n = n & (n-1) removes 1 1-bit from n
+n = n & (n-1) removes 1 1-bit from the binary number n
 
 bit manipulation operators in Java,Python:
 bitshifts  <<, >> 

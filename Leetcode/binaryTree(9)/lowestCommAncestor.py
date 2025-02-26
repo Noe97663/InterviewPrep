@@ -1,4 +1,4 @@
-# Find the (parent) node between them p and q
+# Find the (parent) node between p and q
 
 
 # Definition for a binary tree node.
@@ -30,8 +30,8 @@ def lowestCommonAncestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
     if not root or not p or not q:
         return None
     if max(p.val, q.val) < root.val:
-        return self.lowestCommonAncestor(root.left, p, q)
+        return lowestCommonAncestor(root.left, p, q)
     elif min(p.val, q.val) > root.val:
-        return self.lowestCommonAncestor(root.right, p, q)
+        return lowestCommonAncestor(root.right, p, q)
     else:
         return root

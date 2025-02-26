@@ -2,9 +2,11 @@ Check if array problems would benefit from:
     - Sorting
     - Two pointers
     - Hashmaps/HashSets 
-    - Dynamic Programming
+    - Recursing all decisions = Dynamic Programming
 
 Clarify what is required in the final answer.
+Ask for examples, use example to solve problem.
+Write out edge cases, try algorithm with them.
 
 Edge cases, check odd/even, empty, very large, etc.
 Try the problem (reversed):
@@ -20,13 +22,37 @@ for index,element in enumerate(array):
 
 li = [ [0]*3 for i in range(3) ] - makes a grid matrix
 
+start = sorted([i.start for i in intervals])
+intervals.sort(key=lambda pair: pair[0])
+
 
 from collections import defaultdict
 d = defaultdict(arg) - means that keys will have arg as default value
-arg can be int (returns 0), list ([]), lambda: "Custom Default Value", etc.
+arg can be int (returns 0), list ( [] ), lambda: "Custom Default Value", etc.
 
 A heap - complete binary tree where parent <= child nodes
 
 """
 prepare for interviews
 """
+easy
+arrays
+backtrack
+bs
+binTrees
+greedy
+LL
+interval
+stack
+Trie
+window
+twopointer
+
+
+1d
+2d DP
+bit manip
+graph
+mathgeo
+
+sorting algorithms

@@ -1,4 +1,4 @@
-A trie is a prefix tree - stores strings by their starting letter
+A trie AKA prefix tree - stores strings by their starting letter
 and the child is the next letter and so on
 
 They are useful for string matching, prefix searching,

@@ -9,7 +9,7 @@
 def longestPalindrome(s: str) -> str:
     resIdx = 0
     resLen = 0
-    # start in the middle
+    # start in the all possible middles
     for i in range(len(s)):
         # odd length
         l, r = i, i

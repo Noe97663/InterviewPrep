@@ -17,7 +17,7 @@ class TreeNode:
 
 
 # In-order traversal
-def kthSmallest(self, root: [TreeNode], k: int) -> int:
+def kthSmallest(root: [TreeNode], k: int) -> int:
     arr = []
 
     def dfs(node):

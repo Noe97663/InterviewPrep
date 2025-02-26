@@ -10,10 +10,10 @@ def binary_search(arr, target):
         # Check if the middle element is the target
         if arr[mid] == target:
             return mid
-        # If target is smaller, it must be in the left half
+        # If target is smaller, it must be in the left half, change right point
         elif arr[mid] > target:
             right = mid - 1
-        # If target is larger, it must be in the right half
+        # If target is larger, it must be in the right half, change left point
         else:
             left = mid + 1
     return -1
