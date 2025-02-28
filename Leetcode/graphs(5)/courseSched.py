@@ -15,7 +15,7 @@ def canFinish(numCourses: int, prerequisites: [[int]]) -> bool:
     for crs, pre in prerequisites:
         preMap[crs].append(pre)
 
-    # Store all courses along the current DFS path
+    # Store all courses that you want to do along the current DFS path
     visiting = set()
 
     def canDo(crs):

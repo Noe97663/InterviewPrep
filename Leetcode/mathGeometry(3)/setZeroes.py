@@ -9,7 +9,7 @@
 #          - O(m. n), O(1)
 
 
-def setZeroes(self, matrix: List[List[int]]) -> None:
+def setZeroes(self, matrix: [[int]]) -> None:
     ROWS, COLS = len(matrix), len(matrix[0])
     rowZero = False
 

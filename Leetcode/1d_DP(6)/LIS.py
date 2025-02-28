@@ -2,7 +2,7 @@
 # given an array of nums
 
 ## Brute force - Recurse on every choice - O(2^n), O(n)
-## DP - top down - memoize brute force
+## DP - top down - memoize brute force - O(n^2),O(n^2)
 ##    - bottom up - start from the smallest possible case
 ##      build from there - O(n^2), O(n)
 

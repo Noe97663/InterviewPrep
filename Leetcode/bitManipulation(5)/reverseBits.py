@@ -3,7 +3,7 @@
 ## Brute force - make a string version of the integer after
 ##              / and % repeatedly, reverse that and make it an int
 ##              - O(1), O(1)
-## Bit Manipulation - use >> (or <<) and |(or +) - O(1), O(1)
+## Bit Manipulation - use >> (or <<) and + - O(1), O(1)
 
 
 def reverseBits(n: int) -> int:

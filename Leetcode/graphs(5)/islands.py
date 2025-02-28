@@ -6,7 +6,7 @@
 ##      - O(m n), O(m n)
 
 
-def numIslands(self, grid: [[str]]) -> int:
+def numIslands(grid: [[str]]) -> int:
     directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
     ROWS, COLS = len(grid), len(grid[0])
     islands = 0

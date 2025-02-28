@@ -11,7 +11,8 @@
 
 
 # bottom up DP
-def coinChange(self, coins: [int], amount: int) -> int:
+def coinChange(coins: [int], amount: int) -> int:
+    # 5 * [5] = [ 0 , 5 , 5 , 5 , 5 ]
     dp = [amount + 1] * (amount + 1)
     dp[0] = 0
 

@@ -1,8 +1,8 @@
-# in array of [0-n], count the 1 bits of each number
+# in array of [0-n], count the 1 bits of each index number
 # output - [0,1,1,2,1,2,2,3,1,..]
 
 ## Brute force - for i in n, repeatedly / and % to get the number of
-##               1's in the num (log_2 n times) - O(n logn), O(n)
+##               1's in the num (log_2 n times) - O(n log n), O(n)
 ## DP - patterns repeat after MSB, bottom up DP - O(n), O(n)
 
 

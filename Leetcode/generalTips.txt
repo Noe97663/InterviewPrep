@@ -35,24 +35,6 @@ A heap - complete binary tree where parent <= child nodes
 """
 prepare for interviews
 """
-easy
-arrays
-backtrack
-bs
-binTrees
-greedy
-LL
-interval
-stack
-Trie
-window
-twopointer
-
-
-1d
-2d DP
-bit manip
-graph
-mathgeo
-
 sorting algorithms
+repo
+

@@ -8,7 +8,7 @@
 
 
 # bottom up
-def minDistance(self, word1: str, word2: str) -> int:
+def minDistance(word1: str, word2: str) -> int:
     dp = [[float("inf")] * (len(word2) + 1) for i in range(len(word1) + 1)]
 
     for j in range(len(word2) + 1):
@@ -26,7 +26,7 @@ def minDistance(self, word1: str, word2: str) -> int:
 
 
 # brute force
-def minDistance(self, word1: str, word2: str) -> int:
+def minDistance(word1: str, word2: str) -> int:
     m, n = len(word1), len(word2)
 
     def dfs(i, j):
