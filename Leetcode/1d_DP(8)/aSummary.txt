@@ -6,7 +6,9 @@ do basic recursion, then look for optimization
 (like memoization or just using vars instead of table)
 
 BOTTOM UP
-Consider the smallest possible problem, base cases
+Consider the smallest possible problem, 
+-base cases
+-start from the end and go to the start
 Make the problem easier by splitting, truncating - solve that
 The sub-problems help to determine the final solution
 

@@ -19,7 +19,9 @@ Get-ChildItem -Path $currentDir -Directory | ForEach-Object {
         $expectedCount = $num + 1
         
         if ($filesCount -ne $expectedCount) {
-            Write-Output "Folder '$($_.Name)' does not have the expected $expectedCount files (found $filesCount)."
+            $expectedCodeCount = $num
+            $codeCount = $filesCount-1
+            Write-Output "Folder '$($_.Name)' does not have the expected $expectedCodeCount code files [found ($codeCount) code files + 1]."
         }
     }
 }

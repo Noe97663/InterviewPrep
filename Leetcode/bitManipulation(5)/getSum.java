@@ -7,8 +7,8 @@
  * O(1),O(1) - since we have size limits on the integers
  */
 
-public class Solution {
-    public int getSum(int a, int b) {
+public class getSum {
+    public int Calculate(int a, int b) {
         while (b != 0) {
             int carry = (a & b) << 1;
             a ^= b;
