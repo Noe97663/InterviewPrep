@@ -1,0 +1,7 @@
+Recursion very useful here
+
+pre-order, in-order, post-order traversal important
+
+BFS (queue) and DFS (stack) - bread and butter
+
+look at one iterative DFS solution for a recursion question like in diameter.py
