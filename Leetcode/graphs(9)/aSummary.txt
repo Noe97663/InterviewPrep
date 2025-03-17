@@ -4,3 +4,5 @@ Related data can be thought of as graphs
 DFS and BFS are OP
 
 BUilding an adjacency matrix is common
+
+To Learn: Disjoint Set Union algo
