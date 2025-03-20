@@ -7,7 +7,7 @@
 ## made mistake of doing every cell to closest treasure
 ## more efficient to do all treasure to cells
 
-def islandsAndTreasure(self, grid: [[int]]) -> None:
+def islandsAndTreasure(grid: [[int]]) -> None:
     ROWS, COLS = len(grid), len(grid[0])
     visit = set()
     q = deque()
