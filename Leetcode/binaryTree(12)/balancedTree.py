@@ -1,11 +1,7 @@
 # Check whether the tree is balanced in height (diff <= 1)
 
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+from buildTree import TreeNode
+
 
 ## Brute force - traverse the tree, calculate heights at each node
 ##             - O(n^2), O(n)
