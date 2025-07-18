@@ -10,7 +10,7 @@
 ##               can reach the end of the string - O( n. 2^n ),
 ##               O( m.t + n )
 ## DP - add memoization for top down
-##      bottom up - start working from the back and solve the smallest
+## DP - bottom up - start working from the back and solve the smallest
 ##      possible problems until you reach the front - O(n.m.t), O(n)
 
 
