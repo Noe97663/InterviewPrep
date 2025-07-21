@@ -13,8 +13,9 @@ Make the problem easier by splitting, truncating - solve that
 The sub-problems help to determine the final solution
 
 
-Either you do or you don't - O(2^n) solution
+Either you do or you don't - 2 choices - O(2^n) solution
 Easy to solve with recursion, can be simplified
 with DP
 
 DP can be space optimized if all the numbers in the array don't matter
+for one decision

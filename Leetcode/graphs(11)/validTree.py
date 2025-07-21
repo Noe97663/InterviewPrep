@@ -3,6 +3,7 @@
 
 ## Brute force  - Build an adjacency matrix, DFS/BFS through the graph,
 ##                keeping track of visited nodes (and prev visited)
+##                - O( V + E ), O( V + E )
 
 
 def validTree(n: int, edges: [[int]]) -> bool:
