@@ -1,5 +1,7 @@
-do bit manipulation questions in java or C since it's not 
-as straightforward in Python
+numbers in data - consider bit manipulation
+
+try bit manipulation questions in java or C since it's not 
+as straightforward in Python (or pseudocode)
 
 XOR with the same number gives zero
 
@@ -7,7 +9,7 @@ n >> 1 divides a number by 2 in python
 
 n = n & (n-1) removes 1 1-bit from the binary number n
 
-bit manipulation operators in Java,Python:
+bit manipulation operators in Java+Python:
 bitshifts  <<, >> 
 (zeroes fill in Python)
 (<< fills zeroes in Java)

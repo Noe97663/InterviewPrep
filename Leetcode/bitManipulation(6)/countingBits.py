@@ -7,7 +7,7 @@
 ##         - O(1 bits), O(1)
 
 
-def hammingWeight(self, n: int) -> int:
+def hammingWeight(n: int) -> int:
     res = 0
     while n:
         # removes 1 1-bit
