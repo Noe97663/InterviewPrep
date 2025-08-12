@@ -9,6 +9,7 @@ features
 
 can be implemented by hand - an array (2*i +1 and +2 are kids)
 or just use heapq in python
+python heaps are min heaps by default (* -1) to use min as max heap
 
 common uses
 - need fast min/max
