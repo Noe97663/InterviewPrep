@@ -1,0 +1,2 @@
+In a square, x1-x2 == y2-y1 means diagonal points
+The other two points are (x1,y2) and (x2,y1)

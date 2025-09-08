@@ -18,6 +18,8 @@ MENTION that you do NOT count output space in space complexity.
 
 dict.get(s[i], 0) - returns 0 as the default value
 
+dictionary keys must be immutable, so list>>tuple to make it a key
+
 for index,element in enumerate(array):
 
 li = [ [0]*3 for i in range(3) ] - makes a grid matrix
@@ -32,6 +34,7 @@ arg can be int (returns 0), list ( [] ), lambda: "Custom Default Value", etc.
 
 A heap - complete binary tree where parent <= child nodes
 
+how do lambdas work in python? FIND OUT
 """
 prepare for interviews
 """
