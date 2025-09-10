@@ -5,5 +5,7 @@ Look at the problem from the back
 
 Useful for arrays of data
 
+Check for obvious qualities, is n divisible by group size? ( n % k )
+
 The best possible choice now, must be the best choice for the final output
 and be a part of the final output.
